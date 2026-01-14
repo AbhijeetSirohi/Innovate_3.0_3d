@@ -103,7 +103,7 @@ Due to size constraints, the main 3D campus model is not included directly in th
 Download the optimized campus model from Google Drive:
 👉 https://drive.google.com/file/d/13itFopW1RefhuCRB40nUOfTGN4FT_c7T/view?usp=sharing
 
-📂 How to use the model
+📂 How to Use the Model
 
 After downloading:
 
@@ -137,13 +137,13 @@ http://localhost:5173
 
 Hackathon Theme: Open Innovation
 
-Primary Domain:
+Primary Domains
 
 Smart Infrastructure
 
 Indoor Navigation & Wayfinding
 
-Secondary Domains:
+Secondary Domains
 
 Spatial Computing
 
@@ -165,7 +165,7 @@ Multi-floor routing supported
 
 QR-code based “You are here” positioning
 
-Floor-wise model loading for performance
+Floor-wise model loading for better performance
 
 AR-based navigation using WebXR
 
