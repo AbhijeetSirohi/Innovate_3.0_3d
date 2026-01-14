@@ -1,0 +1,152 @@
+{
+  "nodes": {
+    "stair_1_2_junction": {
+      "x": 141.7,
+      "y": -27.8,
+      "z": 257.4,
+      "label": "Stairs 1-2 Junction"
+    },
+    "junction_1":{
+      "x": 127.0,
+      "y": 1.4,
+      "z": 230.5,
+      "label": "Junction 1"
+    },
+     "junction_2":{
+      "x": 122.49,
+      "y": 1.4,
+      "z": 23.58,
+      "label": "Junction 2"
+    },
+     "final_room":{
+      "x": -2.03,
+      "y": 1.4,
+      "z": 31.73,
+      "label": "Final Room"
+    },
+
+    "hallway_1": {
+      "x": 139.0,
+      "y": -28.4,
+      "z": 179.0,
+      "label": "Hallway 1"
+    },
+    "stair_1_2_junction_2": {
+      "x": 132.1,
+      "y": -31.3,
+      "z": 16.1,
+      "label": "Stairs 1-2 Junction 2"
+    },
+    "entrance_final": {
+      "x": 74.4,
+      "y": -19.9,
+      "z": 27.8,
+      "label": "Entrance Area"
+    },
+    "hallway_2": {
+      "x": 135.0,
+      "y": -29.0,
+      "z": 100.0,
+      "label": "Hallway 2"
+    },
+    "room_201": {
+      "x": 145.0,
+      "y": -25.0,
+      "z": 200.0,
+      "label": "Room 201"
+    },
+    "room_202": {
+      "x": 125.0,
+      "y": -32.0,
+      "z": 50.0,
+      "label": "Room 202"
+    },
+    "corridor_main": {
+      "x": 130.0,
+      "y": -30.0,
+      "z": 120.0,
+      "label": "Main Corridor"
+    },
+    "lecture_hall": {
+      "x": 80.0,
+      "y": -22.0,
+      "z": 80.0,
+      "label": "Lecture Hall"
+    },
+    "corridor_left": {
+      "x": 95.0,
+      "y": -24.0,
+      "z": 150.0,
+      "label": "Left Corridor"
+    },
+    "classroom_block_a": {
+      "x": 60.0,
+      "y": -20.0,
+      "z": 60.0,
+      "label": "Classroom Block A"
+    },
+    "room_203": {
+      "x": 150.0,
+      "y": -26.0,
+      "z": 230.0,
+      "label": "Room 203"
+    },
+    "junction_east": {
+      "x": 140.0,
+      "y": -28.0,
+      "z": 220.0,
+      "label": "East Junction"
+    },
+    "corridor_south": {
+      "x": 100.0,
+      "y": -25.0,
+      "z": 40.0,
+      "label": "South Corridor"
+    },
+    "exit_west": {
+      "x": 50.0,
+      "y": -18.0,
+      "z": 10.0,
+      "label": "West Exit"
+    },
+    "office_area": {
+      "x": 120.0,
+      "y": -30.0,
+      "z": 80.0,
+      "label": "Office Area"
+    },
+    "cafeteria": {
+      "x": 110.0,
+      "y": -23.0,
+      "z": 120.0,
+      "label": "Cafeteria"
+    }
+  },
+  "edges": [
+    
+    ["hallway_1", "stair_1_2_junction", 80.0],
+    ["hallway_1", "hallway_2", 79.0],
+    ["hallway_2", "stair_1_2_junction", 100.0],
+    ["stair_1_2_junction", "room_201", 60.0],
+    ["stair_1_2_junction", "room_203", 30.0],
+    ["stair_1_2_junction", "stair_1_2_junction_2", 241.3],
+    ["stair_1_2_junction_2", "room_202", 120.0],
+    ["stair_1_2_junction_2", "entrance_final", 60.0],
+    ["entrance_final", "lecture_hall", 40.0],
+    ["entrance_final", "exit_west", 30.0],
+    ["hallway_1", "corridor_main", 60.0],
+    ["corridor_main", "stair_1_2_junction_2", 105.0],
+    ["hallway_1", "junction_east", 20.0],
+    ["junction_east", "room_203", 30.0],
+    ["stair_1_2_junction_2", "corridor_south", 50.0],
+    ["corridor_south", "office_area", 45.0],
+    ["office_area", "cafeteria", 45.0],
+    ["cafeteria", "corridor_left", 30.0],
+    ["corridor_left", "classroom_block_a", 100.0],
+    ["classroom_block_a", "lecture_hall", 40.0],
+    ["lecture_hall", "entrance_final", 60.0],
+    ["junction_1", "junction_2", 50.0],
+    ["junction_2","final_room",50.0]
+  ]
+}
+
