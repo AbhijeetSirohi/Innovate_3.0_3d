@@ -4,6 +4,7 @@ A web-based indoor navigation system that enables inter-class navigation inside 
 
 This project is built under the Open Innovation theme and falls within the domain of Smart Infrastructure & Indoor Wayfinding.
 
+</br>
 🚀 Problem Statement
 
 Large academic campuses and school buildings often have:
@@ -19,6 +20,7 @@ No reliable indoor navigation support
 New students and visitors frequently get lost, especially when navigating between floors.
 Existing solutions like Google Maps do not support indoor, floor-aware navigation.
 
+</br>
 💡 Proposed Solution
 
 This project provides:
@@ -43,6 +45,7 @@ Airports
 
 Public infrastructure buildings
 
+</br>
 🧠 Core Concept
 
 The system separates visual representation from navigation logic:
@@ -82,6 +85,7 @@ Data Format: JSON
 
 Version Control: Git & GitHub
 
+</br>
 🧭 Navigation Features
 
 Inter-class navigation across multiple floors
@@ -103,6 +107,7 @@ Due to size constraints, the main 3D campus model is not included directly in th
 Download the optimized campus model from Google Drive:
 👉 https://drive.google.com/file/d/13itFopW1RefhuCRB40nUOfTGN4FT_c7T/view?usp=sharing
 
+</br>
 📂 How to Use the Model
 
 After downloading:
@@ -133,6 +138,7 @@ Then open the browser at:
 
 http://localhost:5173
 
+</br>
 🌍 Domain & Theme Alignment
 
 Hackathon Theme: Open Innovation
@@ -151,6 +157,7 @@ Digital Twin Technology
 
 EdTech (Application Layer)
 
+</br>
 🧪 Current Status
 
 3D campus model successfully integrated
@@ -161,6 +168,7 @@ Guided camera navigation implemented
 
 Multi-floor routing supported
 
+</br>
 🔮 Future Enhancements
 
 QR-code based “You are here” positioning
